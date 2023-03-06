@@ -14,7 +14,7 @@ class CardList extends Component {
 					return (
 						<Card
 							key={id}
-							alt={name}
+							name={name}
 							src={`https://robohash.org/${id}?set=set2&size=180x180`}
 							email={email}
 						/>
